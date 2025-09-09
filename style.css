@@ -1,0 +1,30 @@
+/* фон сайта */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #ff6600); /* черно-оранжевый градиент */
+    color: #ffffff; /* белый текст */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Заголовки */
+h1 {
+    color: #ffcc66; /* светло-оранжевый для контраста */
+}
+
+/* Кнопки */
+button, .button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #ff6600; /* оранжевая кнопка */
+    color: #000000; /* текст на кнопке */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: #ff9933; /* светлее при наведении */
+}
